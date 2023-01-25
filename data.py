@@ -17,12 +17,12 @@ def corrupted_mnist():
     """Load in the corrupted mnist dataset"""
     
     # load dataset
-    train_0 = np.load("../../../data/corruptmnist/train_0.npz",allow_pickle=True)
-    train_1 = np.load("../../../data/corruptmnist/train_1.npz",allow_pickle=True)
-    train_2 = np.load("../../../data/corruptmnist/train_2.npz",allow_pickle=True)
-    train_3 = np.load("../../../data/corruptmnist/train_3.npz",allow_pickle=True)
-    train_4 = np.load("../../../data/corruptmnist/train_4.npz",allow_pickle=True)
-    test = np.load("../../../data/corruptmnist/test.npz",allow_pickle=True)
+    train_0 = np.load("C:/Users/wuxin/Desktop/DTU Courses/MLOps/dtu-mlops/data/corruptmnist/train_0.npz",allow_pickle=True)
+    train_1 = np.load("C:/Users/wuxin/Desktop/DTU Courses/MLOps/dtu-mlops/data/corruptmnist/train_1.npz",allow_pickle=True)
+    train_2 = np.load("C:/Users/wuxin/Desktop/DTU Courses/MLOps/dtu-mlops/data/corruptmnist/train_2.npz",allow_pickle=True)
+    train_3 = np.load("C:/Users/wuxin/Desktop/DTU Courses/MLOps/dtu-mlops/data/corruptmnist/train_3.npz",allow_pickle=True)
+    train_4 = np.load("C:/Users/wuxin/Desktop/DTU Courses/MLOps/dtu-mlops/data/corruptmnist/train_4.npz",allow_pickle=True)
+    test = np.load("C:/Users/wuxin/Desktop/DTU Courses/MLOps/dtu-mlops/data/corruptmnist/test.npz",allow_pickle=True)
     
     # transform numpy array to tensor
     train_0_x = torch.from_numpy(train_0["images"])
